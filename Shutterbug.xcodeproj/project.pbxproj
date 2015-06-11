@@ -15,6 +15,9 @@
 		2322204E1B2982FD00ED0CC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2322204D1B2982FD00ED0CC2 /* Images.xcassets */; };
 		232220511B2982FD00ED0CC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2322204F1B2982FD00ED0CC2 /* LaunchScreen.xib */; };
 		2322205D1B2982FD00ED0CC2 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322205C1B2982FD00ED0CC2 /* ShutterbugTests.m */; };
+		232220A41B299FD300ED0CC2 /* FlickerPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232220A31B299FD300ED0CC2 /* FlickerPhotosTableViewController.m */; };
+		232220A71B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232220A61B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.m */; };
+		232220A91B29A3A300ED0CC2 /* FlickrFetcher in Resources */ = {isa = PBXBuildFile; fileRef = 232220A81B29A3A300ED0CC2 /* FlickrFetcher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		232220561B2982FD00ED0CC2 /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2322205B1B2982FD00ED0CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2322205C1B2982FD00ED0CC2 /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		232220A21B299FD300ED0CC2 /* FlickerPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickerPhotosTableViewController.h; sourceTree = "<group>"; };
+		232220A31B299FD300ED0CC2 /* FlickerPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickerPhotosTableViewController.m; sourceTree = "<group>"; };
+		232220A51B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustPostedFlickrPhotosTVCViewController.h; sourceTree = "<group>"; };
+		232220A61B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustPostedFlickrPhotosTVCViewController.m; sourceTree = "<group>"; };
+		232220A81B29A3A300ED0CC2 /* FlickrFetcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FlickrFetcher; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,12 @@
 		2322203C1B2982FD00ED0CC2 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
+				232220A81B29A3A300ED0CC2 /* FlickrFetcher */,
 				232220411B2982FD00ED0CC2 /* AppDelegate.h */,
+				232220A21B299FD300ED0CC2 /* FlickerPhotosTableViewController.h */,
+				232220A31B299FD300ED0CC2 /* FlickerPhotosTableViewController.m */,
+				232220A51B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.h */,
+				232220A61B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.m */,
 				232220421B2982FD00ED0CC2 /* AppDelegate.m */,
 				232220471B2982FD00ED0CC2 /* ViewController.h */,
 				232220481B2982FD00ED0CC2 /* ViewController.m */,
@@ -203,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2322204C1B2982FD00ED0CC2 /* Main.storyboard in Resources */,
+				232220A91B29A3A300ED0CC2 /* FlickrFetcher in Resources */,
 				232220511B2982FD00ED0CC2 /* LaunchScreen.xib in Resources */,
 				2322204E1B2982FD00ED0CC2 /* Images.xcassets in Resources */,
 			);
@@ -222,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232220A41B299FD300ED0CC2 /* FlickerPhotosTableViewController.m in Sources */,
 				232220431B2982FD00ED0CC2 /* AppDelegate.m in Sources */,
 				232220461B2982FD00ED0CC2 /* Shutterbug.xcdatamodeld in Sources */,
+				232220A71B29A1AD00ED0CC2 /* JustPostedFlickrPhotosTVCViewController.m in Sources */,
 				232220491B2982FD00ED0CC2 /* ViewController.m in Sources */,
 				232220401B2982FD00ED0CC2 /* main.m in Sources */,
 			);
